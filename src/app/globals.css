@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-accent: #e63946;
+  --color-accent-hover: #c1121f;
+  --color-surface: #fafafa;
+  --color-muted: #737373;
+  --color-border: #e5e5e5;
+  --color-card: #ffffff;
+  --font-sans: "Inter", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Source Code Pro", Consolas, monospace;
+}
+
+body {
+  background: var(--color-surface);
+  color: #171717;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
