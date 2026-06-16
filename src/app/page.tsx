@@ -53,6 +53,12 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      <footer className="border-t border-border bg-white py-6 mt-auto">
+        <div className="max-w-6xl mx-auto px-6 text-center text-sm text-muted">
+          &copy; {new Date().getFullYear()} 经典电影 · 仅供学习交流
+        </div>
+      </footer>
     </div>
   );
 }
